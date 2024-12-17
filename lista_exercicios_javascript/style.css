@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body{
+    background-color:black;
+    
+    
+}
+
+#ti{
+    background-color:rgba(0, 0, 0, 0.527);
+    color:white;    
+}
+
+
+section {
+    width: 50%; 
+    margin: 50px auto; 
+    background-color: white; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+}
+
+section h2 {
+    text-align: left; 
+    margin-bottom: 10px; 
+}
+
+section p, section input, section button {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+section input {
+    width: calc(100% - 20px); 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 14px; 
+}
+
+section button {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 14px; 
+}
+
+section button:hover {
+    background-color: #0056b3; 
+}

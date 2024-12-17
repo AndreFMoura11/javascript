@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticas Marcio</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="ti">Estruturas de decisão</h1>
+    </header>
+
+    <nav>
+        <!--links de navegaçao , usando lista-->
+    </nav>
+
+    <!--Questão 1-->
+    <section>
+        <h2>"1. Faça um Programa que peça dois números e imprima o maior deles."</h1>
+        <h3>Qual o Maior e o menor numero ?</h2>
+        <p>Digite o primeiro numero:</p>
+        <input type="number" id="numero1_1q">
+        <br>
+        <p>Digite o segundo numero:</p>
+        <input type="number" id="numero2_2q">
+        <br>
+        <br>
+        <button onclick="enviar_1q()">
+            Enviar
+        </button>
+        <br>
+        <div id="resposta_1q"></div>
+    </section>
+    <!--Questão 2-->
+    <section>
+        <h2>2. Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo</h2>
+        <br>
+        <h3>Seu numero é Positivo ou Negativo ?</h3>
+        <br>
+        <input type="number" id="numero_2q">
+        <br>
+        <br>
+        <button id="enviar_2q" onclick="enviar_2q()">
+            Enviar
+        </button>
+        <br>
+        <div id="resposta_2q">
+        </div>
+    </section>
+
+    <!--Questão 3-->
+    <section>
+        <h2>3. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra
+        escrever: F - Feminino,
+        M - Masculino, Sexo Inválido.</h2>
+        <br>
+        <p>Masculino ou Feminino</p>
+        <br>
+        <input type="text" id="letra_3q">
+        <br>
+        <br>
+        <button id="enviar_3q" onclick="enviar_3q()">
+            Enviar
+        </button>
+        <br>
+        <div id="resposta_3q"></div>
+    </section>
+
+    <!--Questão Extra -->
+    <section>
+        <h2>Extra: Faça um Programa que verifique se uma letra digitada é MAIUSCULA ou minuscula </h2>
+        <br>
+        <p>É MAIUSCULA ou minuscula</p>
+        <br>
+        <input type="text" id="letra_eq">
+        <br>
+        <br>
+        <button id="enviar_eq" onclick="enviar_eq()">
+            Enviar
+        </button>
+        <br>
+        <div id="resposta_eq"></div>
+    </section>
+
+    <!--Questão 4-->
+    <section>
+        <h2>4. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.</h2>
+        <br>
+        <p>Sua letra é Vogal ou consoate ?</p>
+        <br>
+        <input type="text" id="letra_4q">
+        <br>
+        <br>
+        <button id="enviar_4q" onclick="enviar_4q()">
+            Enviar
+        </button>
+        <br>
+        <div id="resposta_4q"></div>
+    </section>
+
+    <!--Questão 5 e -->
+    <section>
+        <h2>5. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve
+            calcular a média alcançada por aluno e apresentar: A mensagem "Aprovado", se a
+            média alcançada for maior ou igual a sete; A mensagem "Reprovado", se a média for
+            menor do que sete; A mensagem "Aprovado com Distinção", se a média for igual a dez.</h2>
+            <p>Digite as Notas das suas ultimas 2 provas</p>
+            <p>Prova 1</p>
+            <input type="number" id="prova_1">
+            <br>
+            <p>Prova 2</p>
+            <input type="number" id="prova_2">
+            <br>
+            <br>
+            <button id="enviar_5q" onclick="enviar_5q()">
+                Enviar
+            </button>
+
+            <div id="resposta_5q" ></div>
+    </section>
+
+    <!-- Questão 6 e 7 -->
+    <section>
+        <h2>6. Faça um Programa que leia três números e mostre o maior deles.</h2>
+        <br>
+        <p>Digite 3 numeros , para saber qual o maior deles :</p>
+        <br>
+        <p>Numero 1:</p>
+        <input type="number" id="numero_1_6q">
+        <br>
+        <p>Numero 2:</p>
+        <input type="number"  id="numero_2_6q"></input>
+        <br>
+        <p>Numero 3:</p>
+        <input type="number" id="numero_3_6q">
+        <br>
+        <br>
+        <button id="enviar_6q" onclick="enviar_6q()">
+            Enviar
+        </button>
+        <div id="resposta_6q"></div>
+        <br>
+        <br>
+        <div id="reparo"></div>
+    </section>
+
+    <!--Questão 8-->
+    <section>
+        <h2>8. Faça um programa que pergunte o preço de três produtos e informe qual produto você
+        deve comprar, sabendo que a decisão é sempre pelo mais barato.</h2>
+        <br>
+        <p>Sugestão de comprar para o Produto mais barato Digite 3</p>
+        <br>
+        <p>Produto 1 valor:</p>
+        <input type="number" id="letra_1_8q">
+        <p>Produto 2 valor:</p>
+        <br>
+        <input type="number" id="letra_2_8q">
+        <p>Produto 3 valor:</p>
+        <input type="number" id="letra_3_8q">
+        <br>
+        <br>
+        <button id="enviar_8q" onclick="enviar_8q()">
+            Enviar
+        </button>
+
+        <div id="resposta_8q"></div>
+    </section>
+
+    <!--Questão 9-->
+    <section>
+        <h2>9. Faça um Programa que leia três números e mostre-os em ordem decrescente.</h2>
+        <br>
+        <p>Digite 3 numeros para mostrar na ordem correta</p>
+        <br>
+        <p>Numero 1:</p>
+        <input type="number" id="numero_1_9q">
+        <br>
+        <p>Numero 2:</p>
+        <input type="number" id="numero_2_9q">
+        <br>
+        <p>Numero 3:</p>
+        <input type="number" id="numero_3_9q">
+        <br>
+        <br>
+        <button id="enviar_9" onclick="enviar_9()">
+            Enviar
+        </button>
+
+        <div id="resposta_9"></div>
+
+        <!--Questao 10 -->
+        <section>
+            <h2>10. Faça um Programa que pergunte em que turno você estuda. Peça para digitar Mmatutino ou V-Vespertino ou N- Noturno.
+                Imprima a mensagem "Bom Dia!", "BoaTarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.</h2>
+            <br>
+            <p>Qual turno você estuda ? M = matutino ou V = Vespertino ou N = Noturno </p>
+            <br>
+            <input type="text" id="periodo">
+            <br>
+            <br>
+            <button id="enviar_10" onclick="enviar_10()">
+                Enviar
+            </button>
+            <br>
+            <div id="resposta_10">
+            </div>
+        </section>
+
+
+        <section>
+            
+        </section>
+    </section>
+
+    <footer>
+       <!-- roda pe , usa lista-->
+    </footer>
+
+    <!-- .div$*4    Pra criar mais de um  //// IMPORTANTE-->
+
+    
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
+
+<!--
+Desafio 02 – JavaScript
+Prof. Márcio Ferreira
+
+Estruturas de decisão
+1. Faça um Programa que peça dois números e imprima o maior deles.
+
+2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou
+negativo.
+
+3. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra
+escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
+4. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+5. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve
+calcular a média alcançada por aluno e apresentar: A mensagem "Aprovado", se a
+média alcançada for maior ou igual a sete; A mensagem "Reprovado", se a média for
+menor do que sete; A mensagem "Aprovado com Distinção", se a média for igual a dez.
+
+6. Faça um Programa que leia três números e mostre o maior deles.
+
+7. Faça um Programa que leia três números e mostre o maior e o menor deles.
+
+8. Faça um programa que pergunte o preço de três produtos e informe qual produto você
+deve comprar, sabendo que a decisão é sempre pelo mais barato.
+
+9. Faça um Programa que leia três números e mostre-os em ordem decrescente.
+
+10. Faça um Programa que pergunte em que turno você estuda. Peça para digitar Mmatutino ou V-Vespertino ou N- Noturno.
+Imprima a mensagem "Bom Dia!", "BoaTarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+-->
+
+<!--
+Fazer o fundo com varias carinhas do marcio rodando atras
+-->
